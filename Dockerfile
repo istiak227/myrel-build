@@ -9,5 +9,6 @@ COPY . .
 RUN npm install -g serve
 
 RUN serve -s build
-
 EXPOSE 3000
+
+
